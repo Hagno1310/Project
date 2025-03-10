@@ -1,0 +1,182 @@
+html {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00849d;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.linkedin-text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    gap: 4px;
+    margin-bottom: 12px;
+}
+
+.fa-registered {
+    font-size: 6px;
+    position: relative;
+    top: 22px;
+    right: 1px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.title-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 28px;  
+}
+
+.sign-up-box {
+    width: 386px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #efefef;
+    margin-left: 48px;
+}
+
+.input-box {
+    margin: 15px 32px; 
+}
+
+.input-text {
+    font-size: 13px;
+    color: #63666f;
+} 
+
+.box {
+    width: 100%;
+    height: 26px;
+    margin-bottom: 12px;
+    border: solid;
+    border-width: 2px;
+    border-color: #d9d9d9;
+}
+
+.policy-1 {
+    margin-top: -13px;
+    margin-left: 32px;
+    font-size: 11.75px;
+    color: #63666f;
+}
+.policy-2 {
+    color: #63666f;
+    margin-top: 1.5px;
+    margin-left: 105px;
+    font-size: 11.75px;
+}
+
+.policy a {
+    color: black;
+    font-weight: 550;
+}
+
+.join-now-button {
+    margin: 15px 32px;
+    border: solid;
+    border-color: #175a8c;
+    border-width: 1px;
+    font-size: 16px;
+    color: white;
+    height: 35px;
+    border-radius: 3px;
+    background-image: linear-gradient(#237bbc, #165889);
+    cursor: pointer;
+}
+
+.join-now-button:active {
+    opacity: 70%;
+}
+
+#hr-1 {
+    width: 135px;
+    height: -1px;
+    margin-left: 32px;
+    color: #63666f;
+}
+
+#hr-2 {
+    width: 135px;
+    height: -1px;
+    margin-right: 32px;
+    color: #63666f;
+}
+
+
+.or-hr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.or-text {
+    margin-top: -3px;
+    font-size: 15px;
+    color: #63666f;
+}
+
+.facebook-button {
+    display: flex;
+    align-items: center;
+    margin: 15px 32px;
+    border: solid;
+    background-color: #385a9b;
+    border-color: #175a8c;
+    border-width: 1px;
+    color: white;
+    height: 35px;
+    border-radius: 3px;
+    justify-content: space-between;
+    font-size: 28px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.facebook-button:active {
+    opacity: 70%;
+}
+
+.facebook-text {
+    font-size: 15.75px;
+}
+
+.sgin-in-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 4px;
+}
+
+.sign-in-link {
+    color: #0e6ea8;
+}
+
+i .registered-icon {
+    font-size: 3px;
+}
+
+.corporation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12.5px;
+    gap: 3px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight:400;
+}

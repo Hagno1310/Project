@@ -1,0 +1,41 @@
+.caculator {
+    width: 400px;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: gray;
+    background-color: white;
+}
+
+#display {
+    background-color: black;
+    color: #fff;
+    width: 373px;
+    height: 100px;
+    margin-left: 10px;
+    text-align: right;
+    font-size: 30px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 0.1fr);
+}
+
+.buttons .button {
+    margin: 10px 10px 2px 10px;
+    background-color: rgb(218, 214, 214);
+    border-color: black;
+    border-style: solid;
+    border-width: 3.5px;
+    font-weight: bolder;
+    width: 80px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.button:active {
+    background-color: gray;
+}
