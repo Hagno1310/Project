@@ -1,0 +1,153 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+html{
+    background-image:
+    linear-gradient(90deg,rgba(0, 168, 255, 0.5), rgba(185, 0, 255, 0.5)),
+    url(image/download.jpg);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: SourceSansPro-SemiBold;
+    src: url('font/SourceSansPro-SemiBold.ttf'); 
+  }
+
+body{
+    font-family: "SourceSansPro-SemiBold", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.sign-in-box{
+    width: 390px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.sign-in-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.input-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+    margin-top: 46px;
+
+}
+
+input::placeholder{
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    padding-left: 26px;
+}
+
+.box{
+    width: 280px;
+    height: 62px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+input{
+    color: black;
+}
+
+.sign-in-btt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+.btt{
+    width: 162px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    background-color: #bd59d4;
+    box-shadow: 2px 2px 18px rgba(189, 89, 212, 0.6);
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 68px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fa-facebook-f{
+    color: #3b5998;
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+}
+
+.gg-icon{
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 128px;
+    color: #4b2354;
+    font-weight: 500;
+    margin-bottom: 38px;
+}
