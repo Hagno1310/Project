@@ -83,21 +83,26 @@ input{
     color: black;
 }
 
-.sign-in-btt{
+.sign-in-btn{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 26px;
 }
 
-.btt{
+.btn{
     width: 162px;
     height: 50px;
     border: none;
     border-radius: 40px;
     color: white;
     background-color: #bd59d4;
-    box-shadow: 2px 2px 18px rgba(189, 89, 212, 0.6);
+    box-shadow: 2px 8px 18px rgba(189, 89, 212, 0.6);
+}
+
+.btn:hover{
+    background-color: #4b2354;
+    box-shadow: 2px 8px 18px rgba(189, 89, 212, 0.8);
 }
 
 .text{
@@ -127,7 +132,11 @@ input{
     justify-content: center;
     border: none;
     border-radius: 50%;
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+    box-shadow: -3px 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.fa-facebook-f:hover{
+    box-shadow: -3px 6px 18px rgba(0, 0, 0, 0.1);
 }
 
 .gg-icon{
@@ -139,7 +148,11 @@ input{
     justify-content: center;
     border: none;
     border-radius: 50%;
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.gg-icon:hover{
+    box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.1);
 }
 
 .link{
